@@ -55,7 +55,7 @@ element.backgroundClipPolyfill({
 
 ## Live example
 
-You can see this in action on my CodePen: [background-clip: text Polyfill](http://codepen.io/TimPietrusky/pen/cnvBk). 
+You can see this in action on my CodePen: [-webkit-background-clip: text Polyfill](http://codepen.io/TimPietrusky/pen/cnvBk). 
 
 --------
 
