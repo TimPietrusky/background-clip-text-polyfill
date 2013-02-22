@@ -59,4 +59,4 @@ You can see this in action on my CodePen: [background-clip: text Polyfill](http:
 
 --------
 
-2013 by [Tim Pietrusky](http://timpietrusky.com)
+Handcrafted 2013 by [Tim Pietrusky](http://timpietrusky.com) in Germany.
