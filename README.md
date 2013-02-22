@@ -15,7 +15,7 @@ h1 {
 
 This polyfill uses CSS feature detection and if ```-webkit-background-clip: text``` is not available, it replaces the specified dom element with a SVG like this:
 
-```
+```xml
 <svg>
   <pattern id="mypattern" patternUnits="userSpaceOnUse" width="750" height="800">
     <image width="750" height="800" xlink:href="http://timpietrusky.com/cdn/army.png"></image>
