@@ -3,6 +3,24 @@
  *
  * How to use:
  * 
+ * 1. Add the polyfill to your page.
+ *
+ * 2. Call the polyfill
+
+  var element = document.querySelector('.myelement'); 
+  element.backgroundClipPolyfill({
+    'patternID' : 'mypattern',
+    'patternURL' : 'url/to/background/pattern',
+    'class' : 'myelement'
+  });
+  
+ * 
+ * Variables:
+ *
+ * patternID : the unique ID of the SVG pattern
+ * patternURL : the URL to the background-image
+ * class : the css-class applied to the SVG
+ *
  *
  * 2013 by Tim Pietrusky
  * timpietrusky.com
