@@ -17,10 +17,10 @@ This polyfill uses CSS feature detection and if ```-webkit-background-clip: text
 
 ```xml
 <svg>
-  <pattern id="mypattern" patternUnits="userSpaceOnUse" width="750" height="800">
+  <pattern id="headline-pattern" patternUnits="userSpaceOnUse" width="750" height="800">
     <image width="750" height="800" xlink:href="http://timpietrusky.com/cdn/army.png"></image>
   </pattern>
-  <text x="0" y="80" class="headline" style="fill:url(#mypattern);">background-clip: text | Polyfill</text>
+  <text x="0" y="80" class="headline" style="fill:url(#headline-pattern);">background-clip: text | Polyfill</text>
 </svg>
 ```
 
@@ -42,12 +42,10 @@ var element = document.querySelector('.myelement');
 /*
  * Call the polyfill
  *
- * patternID : the unique ID of the SVG pattern
  * patternURL : the URL to the background-image
  * class : the css-class applied to the SVG
  */
 element.backgroundClipPolyfill({
-  'patternID' : 'mypattern',
   'patternURL' : 'url/to/background/pattern',
   'class' : 'myelement'
 });
