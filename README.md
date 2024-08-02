@@ -1,6 +1,6 @@
 # -webkit-background-clip: text polyfill
 
-A SVG polyfill for ```-webkit-brackground-clip: text```
+A SVG polyfill for ```-webkit-background-clip: text```
 
 ## What?
 
